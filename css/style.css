@@ -2,6 +2,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    font-family: 'Whitney', sans-serif;
 }
 
 .padd20{
@@ -109,7 +110,7 @@
 }
 
 .rowgrey{
-    background-color: lightgray;
+    background-color: #f6f6f6;
 }
 
 .col-large{
@@ -122,12 +123,41 @@
 }
 
 /* row 4 main */
-.col-main-4{
-    width: 70%;
+.row-main-4{
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.col-main-4{
+    width: 50%;
+    display: flex;
     flex-direction: column;
+    align-items: center;
     text-align: center;
+    padding: 50px 0px;
+}
+
+.col-main-4 h2{
+    margin-bottom: 20px;
+    font-size: 34px;
+}
+
+.col-main-4 h3{
+    padding: 20px 0px;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    font-size: x-large;
+}
+
+.col-main-4 .download{
+    color: white;
+    background-color: #8ea1e1;
+    margin-top: 25px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    width: max-content;
 }
 
 /* footer */
@@ -140,48 +170,80 @@
 .row-footer-1{
     display: flex;
     justify-content: center;
-    align-items: center;
     padding-top: 10px;
     padding-bottom: 50px;
-    border-bottom: 1px solid lightgray;
+    color: white;
 }
 
 .col-large-footer-1{
-    height: 300px;
-    background-color: #F08080;
     width: calc(60% / 5 + 10%);
 }
 
 .col-small-footer-1{
-    height: 300px;
-    background-color: #20B2AA;
     width: calc(60% / 5);
+    color: white;
+}
+
+
+li{
+    list-style-type: none;
+    line-height: 1.5;
+}
+
+.col-large-footer-1 ul{
+    display: flex;
+    align-items: center;
+}
+
+li img{
+    height: auto;
+    width: 34px;
+    padding-top: 10px;
+    margin-right: 15px;
+}
+
+.col-large-footer-1 p{
+    padding-top: 20px;
+}
+
+p img{
+    height: 10px;
+    padding-right: 5px;
+}
+
+.col-large-footer-1 p:after{
+    content: '\25BE';
+    color: white;
+    display: inline-block;
+    padding-left: 5px;
 }
 
 /* row 2 footer */
 .row-footer-2{
     display: flex;
     justify-content: center;
-    padding-top: 25px;
+    padding-top: 25px;    
+    border-top: 1px solid lightgray;
+
 }
 
 .bottom-footer{
-    background-color: #7FFCD4;
-    height: 75px;
     width: 70%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 50px;
+
 }
 
 .col-1-footer-2{
     padding: 0px 5px;
-    background-color: #F08080;
-    height: auto;
 }
 
 .col-2-footer-2{
-    padding: 0px 5px;
-    background-color: #F08080;
-    height: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: #8ea1e1;
 }
