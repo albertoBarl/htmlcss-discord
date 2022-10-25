@@ -67,9 +67,37 @@
 }
 
 .header-2-content{
-    height: 200px;
-    background-color: #EE82EE;
-    width: 70%;
+    width: 40%;
+    text-align: center;
+    color: white;
+    line-height: 1.5;
+}
+
+.padd20{
+    padding: 20px 0px;
+}
+
+.buttons-header-2{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+.buttons-header-2 button:first-child::before{
+    content: '\2193';
+    padding-right: 10px;
+}
+
+.buttons-header-2 button{
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    color: #22272B;
+}
+
+.buttons-header-2 button:last-child{
+    background-color: #22272B;
+    color: white;
 }
 
 /* main */
