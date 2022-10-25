@@ -15,35 +15,33 @@
     background-size: cover;
 }
 
-.row-header-1{
-    height: 75px;
-    display: flex;
-    justify-content: center;
-    padding-top: 12.5px;
-}
 
 /* row 1 header */
+.row-header-1{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
 .box-header{
-    width: 60%;
+    width: 70%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 .logo{
     width: auto;
-    text-align: left;
-    padding-left: 10px;
-    padding-top: 12.5px;
+    padding: 0px 10px;
 }
 
 .menu{
     width: calc(100% / 3 + 25%);
     text-align: center;
-    padding-top: 12.5px;
     display: flex;
     justify-content: space-between;
-
+    align-items: center;
 }
 
 .menu a{
@@ -52,15 +50,17 @@
 
 .login{
     width: auto;
-    text-align: right;
-    padding-right: 10px;
-    padding-top: 12.5px;
+    padding: 0px 10px;
 }
 
 .login button{
     padding: 10px;
     border-radius: 20px;
     border: none;
+}
+
+h1{
+    font-size: 45px;
 }
 
 /* row 2 header */
@@ -72,7 +72,7 @@
 }
 
 .header-2-content{
-    width: 40%;
+    width: 50%;
     text-align: center;
     color: white;
     line-height: 1.5;
@@ -131,6 +131,11 @@
 
 .col-text h2{
     font-size: 40px;
+    padding-bottom: 15px;
+}
+
+.col-text p{
+    line-height: 1.5;
 }
 
 .row-main-2 .col-small{
