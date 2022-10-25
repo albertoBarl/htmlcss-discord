@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.padd20{
+    padding: 20px 0px;
+}
+
 /* header */
 .container-header{
     background-image: url(../img/jumbo.png);
@@ -73,17 +77,13 @@
     line-height: 1.5;
 }
 
-.padd20{
-    padding: 20px 0px;
-}
-
 .buttons-header-2{
     display: flex;
     justify-content: space-around;
     padding-bottom: 50px;
 }
 
-.buttons-header-2 button:first-child::before{
+.download:before{
     content: '\2193';
     padding-right: 10px;
 }
@@ -113,21 +113,21 @@
 }
 
 .col-large{
-    height: 300px;
     width: 40%;
-    background-color: #1D90FF ;
 }
 .col-small{
-    height: 300px;
     width: 30%;
-    background-color: #F08080;
+    display: flex;
+    flex-direction: column;
 }
 
 /* row 4 main */
 .col-main-4{
-    background-color: green;
-    height: 500px;
     width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 /* footer */
