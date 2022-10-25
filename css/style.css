@@ -115,11 +115,31 @@
 
 .col-large{
     width: 40%;
+    display: flex;
+    justify-content: center;
 }
 .col-small{
     width: 30%;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+}
+
+.col-text{
+    width: 60%;
+    text-align: left;
+}
+
+.col-text h2{
+    font-size: 40px;
+}
+
+.row-main-2 .col-small{
+    display: flex;
+    justify-content: center;
+}
+
+.col-large img{
+    width: 100%;
 }
 
 /* row 4 main */
