@@ -1,0 +1,153 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.col{
+    border: 1px dashed black;
+}
+
+/* header */
+.container-header{
+    background-color: #AED8E6;
+}
+
+.row-header-1{
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    padding-top: 12.5px;
+}
+
+/* row 1 header */
+.box-header{
+    height: 50px;
+    width: 60%;
+    background-color: #DAA520;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: calc(100% / 3);
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 12.5px;
+}
+
+.menu{
+    width: calc(100% / 3 + 25%);
+    text-align: center;
+    padding-top: 12.5px;
+
+}
+
+.login{
+    width: calc(100% / 3);
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 12.5px;
+
+}
+
+/* row 2 header */
+.row-header-2{
+    background-color: #01178B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.header-2-content{
+    height: 200px;
+    background-color: #EE82EE;
+    width: 70%;
+}
+
+/* main */
+.rowmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.rowgrey{
+    background-color: lightgray;
+}
+
+.col-large{
+    height: 300px;
+    width: 40%;
+    background-color: #1D90FF ;
+}
+.col-small{
+    height: 300px;
+    width: 30%;
+    background-color: #F08080;
+}
+
+/* row 4 main */
+.col-main-4{
+    background-color: green;
+    height: 500px;
+    width: 70%;
+}
+
+/* footer */
+
+.container-footer{
+    background-color: #22272B;
+}
+
+/* row 1 footer */
+.row-footer-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid lightgray;
+}
+
+.col-large-footer-1{
+    height: 300px;
+    background-color: #F08080;
+    width: calc(60% / 5 + 10%);
+}
+
+.col-small-footer-1{
+    height: 300px;
+    background-color: #20B2AA;
+    width: calc(60% / 5);
+}
+
+/* row 2 footer */
+.row-footer-2{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.bottom-footer{
+    background-color: #7FFCD4;
+    height: 75px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col-1-footer-2{
+    padding: 0px 5px;
+    background-color: #F08080;
+    height: auto;
+}
+
+.col-2-footer-2{
+    padding: 0px 5px;
+    background-color: #F08080;
+    height: 20px;
+}
