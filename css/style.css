@@ -10,7 +10,8 @@
 
 /* header */
 .container-header{
-    background-color: #AED8E6;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
 
 .row-header-1{
@@ -53,7 +54,6 @@
 
 /* row 2 header */
 .row-header-2{
-    background-color: #01178B;
     display: flex;
     justify-content: center;
     align-items: center;
